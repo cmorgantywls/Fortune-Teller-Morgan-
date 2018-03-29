@@ -14,6 +14,7 @@
 		84D72229206C26C80054972C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D72227206C26C80054972C /* LaunchScreen.storyboard */; };
 		84D72234206C26C80054972C /* Fortune_Teller__Morgan_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D72233206C26C80054972C /* Fortune_Teller__Morgan_Tests.swift */; };
 		84D7223F206C26C80054972C /* Fortune_Teller__Morgan_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7223E206C26C80054972C /* Fortune_Teller__Morgan_UITests.swift */; };
+		84D7224D206C27A90054972C /* fortune.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D7224C206C27A90054972C /* fortune.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		84D7223A206C26C80054972C /* Fortune Teller (Morgan)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fortune Teller (Morgan)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D7223E206C26C80054972C /* Fortune_Teller__Morgan_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fortune_Teller__Morgan_UITests.swift; sourceTree = "<group>"; };
 		84D72240206C26C80054972C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D7224C206C27A90054972C /* fortune.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fortune.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				84D7221E206C26C80054972C /* AppDelegate.swift */,
 				84D72220206C26C80054972C /* ViewController.swift */,
 				84D72222206C26C80054972C /* Main.storyboard */,
+				84D7224C206C27A90054972C /* fortune.swift */,
 				84D72225206C26C80054972C /* Assets.xcassets */,
 				84D72227206C26C80054972C /* LaunchScreen.storyboard */,
 				84D7222A206C26C80054972C /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D7224D206C27A90054972C /* fortune.swift in Sources */,
 				84D72221206C26C80054972C /* ViewController.swift in Sources */,
 				84D7221F206C26C80054972C /* AppDelegate.swift in Sources */,
 			);

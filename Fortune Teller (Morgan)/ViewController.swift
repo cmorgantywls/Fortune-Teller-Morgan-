@@ -10,6 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var theBackground: UIView!
+    @IBOutlet weak var theFortune: UILabel!
+    
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +25,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonPress(_ sender: Any) {
+        let aFortune = getFortune()
+        theFortune.text = aFortune
+    }
+    
+    
+    
 }
 
